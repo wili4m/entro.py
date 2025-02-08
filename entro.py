@@ -1,5 +1,10 @@
 import random, string, math
 
+# Author: Wiliam Freitas
+# Email: wiliamjf@gmail.com
+# Date: 08/02/2025
+# This function adds two numbers
+
 size = 50
 numbers = True
 uppercase = True
