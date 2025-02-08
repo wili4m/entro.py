@@ -40,6 +40,16 @@ Next, the tool will generate a password based on user preferences and analyze it
 --------------------------------------------------
 ```
 
+## Usage:
+
+```
+python entro.py
+```
+
+## Contribution
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
 ## Backlog:
 
 * Create passwords in a single line.
