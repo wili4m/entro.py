@@ -1,9 +1,9 @@
 # entro.py
 This is another password generator that uses entropy analysis to create strong passwords via CLI.
 
-How it works:
+## How it works:
 
-**Entro.py** is a tool that generates passwords:
+**Entro.py** is a tool that generates passwords. The default output seems like this:
 
 ```
 --------------------------------------------------
@@ -14,12 +14,15 @@ Automagically generated passwords:
 3: AhYg(J"c6MqRlocxpNqY:UQv@B\J5V`AT2:UkvS3z&8wHa}wy[
 4: !Rpvu{9Fd7^7|EiZ7UEO%e)\}}@z'vq*/3awrm\E2)jE-~4OLo
 5: K1q:EeFEJ>},$xk;8Og/#s3<,5sEzc4|&1s%u3iqg^%*.R(\.'
+
+Would you like to specify the password format? [y/N]:
 ```
-You always have the chance to create a password according to your criteria:
+
+In this prompt, the user can create a password by specifying specific criteria:
 
 ```<<< Would you like to specify the password format? [y/N]:```
 
-The following prompt will be displayed, one item per time:
+The following options will be displayed one at time:
 
 ```
 <<< Amount of characters:
@@ -28,7 +31,7 @@ The following prompt will be displayed, one item per time:
 <<< Include symbols? [Y/n]:
 ```
 
-Next, the tool will create a password as you wish and analyze if the password is secure or not:
+Next, the tool will generate a password based on user preferences and analyze its entropy to classify it as Strong, Medium, or Weak.
 
 ```
 --------------------------------------------------
@@ -36,3 +39,9 @@ Next, the tool will create a password as you wish and analyze if the password is
 >>> Strength: Strong
 --------------------------------------------------
 ```
+
+## Backlog:
+
+* Create passwords in a single line.
+* Accept parameters to generate passwords in a specific format.
+* Choose which symbols will be used in the password.
